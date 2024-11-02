@@ -39,8 +39,7 @@ Follow these steps to set up the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/blogging-website-mern.git
-cd blogging-website-mern
+git clone https://github.com/AliMustafa010/Blog-Post.git
 ```
 
 ### 2. Set Up the Backend
@@ -48,7 +47,7 @@ cd blogging-website-mern
 Navigate to the `backend` folder, install dependencies, and configure environment variables.
 
 ```bash
-cd backend
+cd Backend
 npm install
 ```
 
@@ -57,7 +56,6 @@ npm install
 Create a `.env` file in the `backend` folder with the following variables:
 
 ```plaintext
-PORT=5000
 MONGO_URI=your_mongo_connection_string
 ```
 
@@ -76,7 +74,7 @@ The backend server will run on `http://localhost:5000`.
 Navigate to the `frontend` folder, install dependencies, and start the frontend development server.
 
 ```bash
-cd ../frontend
+cd Frontend
 npm install
 ```
 
@@ -105,10 +103,10 @@ Once both the backend and frontend servers are running:
 For convenience:
 
 - **Backend**
-  - `npm run dev` - Start the server with nodemon for live reloading (development).
+  - `npm start` - Start the server with nodemon for live reloading (development).
 
 - **Frontend**
-  - `npm run build` - Build the frontend for production.
+  - `npm run dev` - Build the frontend for production.
 
 ---
 
