@@ -1,6 +1,6 @@
 # Blogging Website - MERN Stack
 
-This project is a blogging website built using the MERN stack (MongoDB, Express, React, Node.js). The website includes two main features: an **Admin page** where authorized users can post blogs by specifying a title, description, and image URL, and a **Home page** where all published blogs are displayed.
+This project is a blogging website built using the MERN stack (MongoDB, Express, React, Node.js). The website includes two main features: an **Admin page** where users can post blogs by specifying a title, description, and image URL, and a **Home page** where all published blogs are displayed.
 
 ---
 
